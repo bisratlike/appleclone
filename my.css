@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat",sans-serif;
+}
+header ul{
+
+    height: 50px;
+  
+
+}    
+.headers1{
+position: fixed;
+
+}
+
+/* header  ul {
+    align-items: center;
+    text-align: center;
+}   */
+.headers1 img{   
+    height: 25px;
+   
+}
+.blacks{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+.headers a{
+    color: rgba(240, 248, 255, 0.811);
+    padding-right: 44px;
+}
+
+.iphone11{
+    max-width: fit-content;
+    background-color: black;
+
+}
+
+
+.footerpar{
+    color: rgb(159, 159, 152);
+}
+.row ul li{
+list-style: none;
+}
+.row a{
+    color: rgb(159, 159, 152);
+}
+@media (max-width:500px){
+    .firstsm{
+        display: block;
+    }
+    .firstlg{
+        display: none;
+    }
+}
+@media (min-width:501px){
+    .firstsm{
+        display: none;
+    }
+    .firstlg{
+        display:block;
+    }
+}
+    
+
+    
